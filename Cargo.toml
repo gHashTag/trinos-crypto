@@ -1,0 +1,14 @@
+[package]
+name = "trinos_crypto"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dmitrii Vasilev"]
+license = "MIT"
+description = "Crypto primitives for Trinity ecosystem: Bitcoin PoW, DePIN consensus, wallet management"
+
+[dependencies]
+libc = "0.2"
+trinos_golden_float = "0.1.0"
+
+[build-dependencies]
+cc = "1.0"
